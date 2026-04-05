@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is making a very productive work
 
 on:
   push:
-    branches: [working]
+    branches: [main]
   schedule:
     - cron: "0 13 * * *"
   workflow_dispatch:
