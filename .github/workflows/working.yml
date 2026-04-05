@@ -32,4 +32,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "Productive Work"
+          git pull --rebase origin main
           git push
